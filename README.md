@@ -10,7 +10,7 @@ O site codepen.io não permite que o Cypress execute os testes. Provavelmente ex
 Para poder seguir com o desafio, repliquei o código do app que está no codepen.io para minha máquina, e fiz algumas pequenas alterações APENAS NO HTML:
 - envolvi o código com uma tag <html>
 - criei um <head> e referenciei o css dentro dele
-- coloquei os <script> dentro do body, depois da "<div>" para que sejam executados após a renderização do HTML
+- coloquei os <script> dentro do body, depois da "div" para que sejam executados após a renderização do HTML
 Estas foram as ÚNICAS alterações feitas. Não impactam no comportamento da aplicação e nem nos testes e no desafio proposto.
   
 Portanto, subi o código da aplicação alterado, que está dentro da pasta App https://github.com/Thiago-Grespi/SquareSizeCodepen/tree/master/app
